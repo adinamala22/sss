@@ -1,0 +1,49 @@
+/* Styling for User component */
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.download-btn {
+    background-color: #f778be;
+    color: rgb(14, 3, 3);
+    border: none;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view-profile-button {
+    background-color: #f778be;
+    width: 100%;
+    color: rgb(14, 3, 3);
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}

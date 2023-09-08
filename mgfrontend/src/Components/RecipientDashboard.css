@@ -1,0 +1,94 @@
+/* Styling for RecipientDashboard component */
+
+.user-profile {
+    background-image: linear-gradient(#f778be, #ece6dc, #ece6dc, #ffffff);
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position:absolute;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-self: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-logo h1 {
+    font-weight: 600;
+}
+
+.loggedin-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loggedin-user p {
+    font-weight: 600;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.profile-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-spacing: 20px;
+    margin-top: 1rem;
+    margin-left: 10%;
+}
+
+.search-bar {
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    align-items: center;
+    width: 70%;
+    outline: none;
+    margin: auto;
+}
+
+.search-button {
+    background-color: #f1e9f1;
+    color: rgb(0, 0, 0);
+    border: none;
+    background-color: #f730d686;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
